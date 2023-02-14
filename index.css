@@ -1,0 +1,176 @@
+@font-face {
+    src: "Arialn.ttf";
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    padding: 0px 0px 95px;
+    /*  font-family: Arial, Helvetica, sans-serif;*/
+    font-family: 'IM Fell Double Pica', serif;
+    background: linear-gradient(to right bottom, red, blue)
+}
+
+#parent {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+#giphy {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url("giphy1.gif");
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    opacity: 0.1;
+
+}
+
+#head {
+    margin: 0px;
+    text-align: center;
+    background-image: url("Gori.jpg");
+    background-size: cover;
+    height: 50vh;
+    padding: 10px 0 180px 0px;
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 105px 0 120px 0;
+
+}
+
+.header {
+    padding: 5px 12px;
+    border-radius: 10px;
+    background-color: rgba(2, 24, 53, 0.6);
+    font-family: 'IM Fell Double Pica', serif;
+    letter-spacing: 2px;
+    font-size: 50px;
+    margin-bottom: 30px;
+
+}
+
+.subtitle {
+    padding: 12px 28px;
+    width: 50%;
+    min-width: 400px;
+    border-radius: 10px;
+    background-color: rgba(69, 123, 157, 0.6);
+    font-size: 30px;
+    font-style: italic;
+    margin-top: 0;
+}
+
+.Sightseeings-Container {
+    margin-top: -19px;
+    text-align: center;
+    padding: 20px;
+    background-color: #F1FAEE;
+}
+
+.Sightseeings-Container h3 {
+    text-align: center;
+    font-size: 35px;
+    font-family: 'IM Fell Double Pica', serif;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    color: #1D3557;
+
+}
+
+.Sightseeings-items {
+    display: flex;
+    justify-content: space-around;
+    font-family: 'IM Fell Double Pica', serif;
+    font-size: larger;
+    color: #1D3557;
+    padding-top: 20px;
+    padding: 10px;
+
+}
+
+.Sightseeings-Container p {
+    text-align: center;
+    display: block;
+    padding-top: 20px;
+    padding-bottom: 0px;
+    margin: 20px auto;
+    width: 350px;
+    border: none;
+    font-size: medium;
+    color: rgb(230, 95, 5);
+
+}
+
+.img {
+    max-width: 100px;
+    border: 0px solid rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    box-shadow: 0px 0px 4px rgb(0, 0, 0, 0.3);
+    transition-duration: 0.95s;
+    transition-timing-function: ease-in-out;
+
+}
+
+.img:hover {
+    width: 200px;
+    border-radius: 10px;
+}
+
+.spans {
+    font-size: medium;
+}
+
+
+.guide {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px 35px 15px 0;
+    min-width: fit-content;
+    max-width: 600px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+
+    background-color: rgb(139, 251, 214);
+    text-align: center;
+    border-radius: 25px;
+    border-bottom: 5px solid #09411a;
+    color: rgb(29, 88, 3);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.7);
+
+}
+
+b {
+    color: rgb(190, 141, 6);
+    font-size: 18px;
+}
+
+#guide-image {
+    width: 180px;
+    transition: .7s;
+    border-radius: 20px;
+}
+
+#guide-image:hover {
+    width: 180px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+}
+
+a {
+    text-decoration: none;
+}
+
+.guide p {
+    font-style: italic;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
